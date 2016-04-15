@@ -42,14 +42,14 @@
   <modules>
     <module>polyglot-common</module>
     <module>polyglot-atom</module>
+    <module>polyglot-clojure</module>
+    <module>polyglot-groovy</module>
     <module>polyglot-ruby</module>
     <module>polyglot-scala</module>    
-    <module>polyglot-groovy</module>
     <module>polyglot-yaml</module>
-    <module>polyglot-clojure</module>
     <module>polyglot-xml</module>
-    <module>polyglot-maven-plugin</module>    
     <module>polyglot-translate-plugin</module>    
+    <module>polyglot-maven-plugin</module>    
   </modules>
 
   <dependencyManagement>
@@ -61,7 +61,12 @@
       </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
-        <artifactId>polyglot-ruby</artifactId>
+        <artifactId>polyglot-atom</artifactId>
+        <version>0.1.16-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>io.takari.polyglot</groupId>
+        <artifactId>polyglot-clojure</artifactId>
         <version>0.1.16-SNAPSHOT</version>
       </dependency>
       <dependency>
@@ -71,7 +76,7 @@
       </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
-        <artifactId>polyglot-atom</artifactId>
+        <artifactId>polyglot-ruby</artifactId>
         <version>0.1.16-SNAPSHOT</version>
       </dependency>
       <dependency>
@@ -81,14 +86,14 @@
       </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
-        <artifactId>polyglot-yaml</artifactId>
-        <version>0.1.16-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>io.takari.polyglot</groupId>
         <artifactId>polyglot-xml</artifactId>
         <version>0.1.16-SNAPSHOT</version>
       </dependency>      
+      <dependency>
+        <groupId>io.takari.polyglot</groupId>
+        <artifactId>polyglot-yaml</artifactId>
+        <version>0.1.16-SNAPSHOT</version>
+      </dependency>
       <!-- We inline Maven's dependency management section to align dependency 
         versions from Maven's core -->
       <dependency>

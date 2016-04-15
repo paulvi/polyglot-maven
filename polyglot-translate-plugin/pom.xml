@@ -24,7 +24,11 @@
     </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
-        <artifactId>polyglot-ruby</artifactId>
+        <artifactId>polyglot-atom</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>io.takari.polyglot</groupId>
+        <artifactId>polyglot-clojure</artifactId>
       </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
@@ -32,7 +36,7 @@
       </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
-        <artifactId>polyglot-atom</artifactId>
+        <artifactId>polyglot-ruby</artifactId>
       </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
@@ -40,11 +44,11 @@
       </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
-        <artifactId>polyglot-yaml</artifactId>
+        <artifactId>polyglot-xml</artifactId>
       </dependency>
       <dependency>
         <groupId>io.takari.polyglot</groupId>
-        <artifactId>polyglot-xml</artifactId>
+        <artifactId>polyglot-yaml</artifactId>
       </dependency>
     <dependency>
       <groupId>org.apache.maven</groupId>
